@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+killall -q picom 
+
+
+while pgrep -x picom >/dev/null; do sleep 2; done
+
+# Launch top bar
+polybar main 2> /dev/null &
+
