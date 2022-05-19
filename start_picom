@@ -5,6 +5,5 @@ killall -q picom
 
 while pgrep -x picom >/dev/null; do sleep 2; done
 
-# Launch top bar
-polybar main 2> /dev/null &
+picom --config=$HOME/.config/picom/picom.conf 2> /dev/null &
 
