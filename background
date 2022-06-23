@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wallpaperPath=$HOME/Pictures/wallpapers/
+wallpaperPath=$HOME/Pictures/wallpapers
 wallpaper=$(\ls $wallpaperPath | sort -R | tail -1)
 
-feh --bg-center "${wallpaperPath}chutulhu.jpg"
+feh --bg-center "${wallpaperPath}/Anim_DragonWallpaper.png"
